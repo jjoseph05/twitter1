@@ -4,6 +4,7 @@ get '/' do
 end
 
 post '/user/get_username' do
+  p params
   @username = params[:username]
   redirect "/user/#{@username}"
 end
@@ -19,5 +20,9 @@ get '/user/:username' do
 
   @tweets = @user.tweets.limit(10)
 
-  erb :show_tweets
+  if request.xhr?
+    erb :_show_tweets, layout: false
+  else
+    erb :show_tweets
+  end
 end
