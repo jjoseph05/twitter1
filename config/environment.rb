@@ -24,10 +24,10 @@ require 'twitter'
 # Twitter Auth credentials
 
 Twitter.configure do |config|
-  config.consumer_key = "eoyVmwG128sGHRof5UGSA"
-  config.consumer_secret = "MfXOBFU9TanFQCB9JNXjZoZFfMZ0iWWWiEn5ycTtY"
-  config.oauth_token = "32390262-iSVP0SmCcqstJsi9QZC7Pj9pXFDOBBnpW2qoj04"
-  config.oauth_token_secret = "Hf1apqfspXNRpUjaaidcL1dYGnlAr5K8uq6sV38RMI"
+  config.consumer_key = "yumRi3hs4L61gQSEF03jGQ"
+  config.consumer_secret = "yJ5QC1sZA7yGJhDni0uYWpVqvIDjiN9CBtThWRvpuI"
+  config.oauth_token = "1078234284-v5BFeBhsw7wErUS6FpxrEWH8In9ElpwBumllkq1"
+  config.oauth_token_secret = "dWTyjWNoBkLZwmATiI3Do3CyqHQ66Sopza8hFlaq3IU"
 end
 
 

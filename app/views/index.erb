@@ -1,13 +1,14 @@
 <div class="container">
-  <h1>Welcome to Sinatra!</h1>
-  <p>Hello, world!</p>
+  <h1>Welcome to Twitter-land!</h1>
+  <p>Please enter your tweet!</p>
 
   
-  <form action="/user/get_username" method="POST">
-    <input id="username" type="text" name="username" placeholder="twitter username">
+  <form id = "tweet-form" action="/twitter" method="POST">
+    <textarea id ="tweetspace" placeholder="tweet a tweet" name="tweet"> </textarea>
+    <!-- <input id="username" type="textarea" name="username" placeholder="tweet"> -->
     <input id="submit_button" type="submit" value="submit">
   </form>
 
-  <img id="loading" src="http://www.travelweekly.com/_css/images/loading.jpg">
+  <img id="loading" src="http://media3.giphy.com/media/fJ1eCBjmMoEvu/original.gif">
 
   </div>
